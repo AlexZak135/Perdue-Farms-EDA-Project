@@ -1,2 +1,4 @@
 # Perdue-Farms-EDA-Project
-An exploratory data analysis project that identifies key trends and metrics for logistics and business operations at Perdue Farms.
+
+## Background
+Perdue Farms is a family-owned company heading into its second century of growth and innovation. Perdue Farms creates products for consumers, retail, and foodservice customers around the globe while changing the way animals are raised for food. From a logistics standpoint, Perdue Farms is faced with two major problems. First, a portion of their orders is late, which occurs when an order is dropped off more than 30 minutes past the time the clients expect the order. Perdue Farms wants to better understand various metrics regarding late orders, such as which states have the most late orders. Second, their drivers are held at the client's site for an excessive amount of time, often hours more than projected. They are intrigued by the idea of using drop trailers at client sites and are curious about how this would impact sales and the held time of the deliveries.
