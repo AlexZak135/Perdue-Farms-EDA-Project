@@ -153,7 +153,7 @@ viz1 <- merged1 %>%
             position = position_dodge(0.65), vjust = -1, hjust = 0.5, 
             size = 4.25) + 
   scale_y_continuous(label = comma, 
-                     limits = c(0, 6000), breaks = seq(0, 6000, by = 1500)) +
+                     limits = c(0, 6000), breaks = seq(0, 6000, by = 2000)) +
   scale_fill_manual(values = c("#006AB8", "#FFC522")) + 
   labs(title = "Held Time in Q2 2021 by Delivery Type", 
        x = "", y = "Held Time (hours)") +
@@ -233,8 +233,8 @@ viz3 <- merged1 %>%
   geom_point(size = 2.5) +
   geom_hline(yintercept = 0.15, size = 0.8, color = "gray") +
   scale_y_continuous(labels = percent_format(), 
-                     limits = c(0.15, 0.325), breaks = seq(0.15, 0.325, 
-                                                           by = 0.05)) +
+                     limits = c(0.15, 0.30), breaks = seq(0.15, 0.30, 
+                                                          by = 0.05)) +
   scale_color_manual(values = c("#006AB8", "#FFC522")) + 
   labs(title = "Monthly Percentage of Late Deliveries in Q2 2021", 
        x = "", y = "Percentage") +
