@@ -197,7 +197,7 @@ viz2 <- merged1 %>%
             size = 4.25) + 
   scale_y_continuous(labels = dollar_format(prefix = "$"), 
                      limits = c(0, 400000), breaks = seq(0, 400000, 
-                                                        by = 100000)) +
+                                                         by = 100000)) +
   scale_fill_manual(values = c("#006AB8", "#FFC522")) + 
   labs(title = "Held Cost in Q2 2021 by Delivery Type", 
        x = "", y = "Held Cost") +
@@ -234,7 +234,7 @@ viz3 <- merged1 %>%
   geom_hline(yintercept = 0.15, size = 0.8, color = "gray") +
   scale_y_continuous(labels = percent_format(), 
                      limits = c(0.15, 0.325), breaks = seq(0.15, 0.325, 
-                                                          by = 0.05)) +
+                                                           by = 0.05)) +
   scale_color_manual(values = c("#006AB8", "#FFC522")) + 
   labs(title = "Monthly Percentage of Late Deliveries in Q2 2021", 
        x = "", y = "Percentage") +
