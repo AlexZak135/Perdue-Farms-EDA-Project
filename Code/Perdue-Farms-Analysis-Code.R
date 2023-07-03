@@ -253,8 +253,8 @@ viz3 <- merged1 %>%
         legend.position = "top")
 
 # Perform the data wrangling and visualization steps:
-# This includes grouping by columns, using aggregate functions, etc.
-# Creating a lollipop chart
+  # This includes grouping by columns, using aggregate functions, etc.
+  # Creating a lollipop chart
 
 viz4 <- merged1 %>%
   filter(late == "Yes") %>%
